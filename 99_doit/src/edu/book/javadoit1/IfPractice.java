@@ -1,4 +1,4 @@
-package edu.book.javadoit;
+package edu.book.javadoit1;
 
 public class IfPractice {
 	public static void main(String[] args) {

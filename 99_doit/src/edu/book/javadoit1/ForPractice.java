@@ -1,4 +1,4 @@
-package edu.book.javadoit;
+package edu.book.javadoit1;
 
 public class ForPractice {
 	public static void main(String[] args) {

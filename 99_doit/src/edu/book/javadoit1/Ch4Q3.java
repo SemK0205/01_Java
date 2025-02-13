@@ -1,4 +1,4 @@
-package edu.book.javadoit;
+package edu.book.javadoit1;
 
 public class Ch4Q3 {
 	public static void main(String[] args) {
