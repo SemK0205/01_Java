@@ -1,4 +1,4 @@
-package edu.book.javadoit2;
+package edu.book.chapter5;
 
 public class PersonTest {
 	

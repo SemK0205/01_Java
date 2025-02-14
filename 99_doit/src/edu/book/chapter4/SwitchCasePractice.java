@@ -1,4 +1,4 @@
-package edu.book.javadoit1;
+package edu.book.chapter4;
 
 public class SwitchCasePractice {
 	public static void main(String[] args) {
