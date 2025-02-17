@@ -17,6 +17,12 @@ public class LoopRun { // 실행용 클래스
 		//forEx.ex10();
 		//forEx.ex11();
 		//forEx.ex12();
+		
+		WhileExample whileEx = new WhileExample();
+		//whileEx.ex1();
+		whileEx.ex2();
+		
+		
 				
 	}
 
