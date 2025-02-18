@@ -246,10 +246,7 @@ public class PracticeService {
 		char[] arr = new char[str.length()];
 		int count = 0;
 		int j = 0;
-		
-		
-		
-		
+				
 		for(int i = 0 ; i <str.length(); i++) {
 			if(j == str.length()) {
 				break;
@@ -282,7 +279,6 @@ public class PracticeService {
 		int input = sc.nextInt();
 		String space = sc.nextLine();
 		String[] arr = new String[input];
-		int newInput = 0;
 		int num = 0;
 		while(true) {
 			for(int i = num; i < input ; i++) {
@@ -294,7 +290,7 @@ public class PracticeService {
 			char ch = sc.next().charAt(0);
 			if(ch == 'y'||ch == 'Y') {
 				System.out.print("더 입력하고 싶은 개수 : ");
-				newInput = sc.nextInt();
+				int newInput = sc.nextInt();
 				String space2 = sc.nextLine();
 				arr = Arrays.copyOf(arr, arr.length+newInput);
 				input+=newInput;
