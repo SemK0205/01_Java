@@ -70,7 +70,7 @@ public class AbstractionService {
 		peopleKim.setAge(29);
 		peopleKim.setGender('남');
 		peopleKim.setName("김성원");
-		peopleKim.setPhone("010-73471916");
+		peopleKim.setPhone("010-7347-1916");
 		peopleKim.setpNo("960205-1196612");
 		
 		System.out.println(peopleKim.getName());
