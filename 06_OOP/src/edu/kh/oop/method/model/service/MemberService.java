@@ -27,6 +27,7 @@ public class MemberService {
 		System.out.println("2. 로그인");
 		System.out.println("3. 회원 정보 조회");
 		System.out.println("4. 회원 정보 수정");
+		System.out.println("5. 로그아웃");
 		System.out.println("0. 프로그램 종료");
 		System.out.print("메뉴 입력 : ");
 		menuNum = sc.nextInt();
@@ -50,7 +51,10 @@ public class MemberService {
 			}
 			
 			break;
+		case 5 : System.out.println(logout()); break;
+		
 		case 0 : System.out.println("프로그램 종료.."); break;
+		
 		default : System.out.println("잘못 입력하셨습니다. 메뉴에 있는 번호만 입력해주세요!");
 		
 		}
@@ -148,6 +152,10 @@ public class MemberService {
 		
 	}
 	
+	public String logout() {
+		loginMember = null;
+		return "로그아웃 되었습니다.";
+	}
 	// 회원 정보 조회 기능
 	// -> 조회하려면?
 	// -> 로그인을 했는지 안했는지 확인
