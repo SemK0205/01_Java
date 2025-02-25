@@ -16,8 +16,23 @@ public class Run {
 		std[2] = new Student("강개순", 23, 167, 45, 4, "정보통신공학과");
 		
 		// 위의 학생 정보 모두 출력
-		for(int i = 0 ; i < std.length ; i++) {
-			System.out.println(std[i].information()); 
+		//for(int i = 0 ; i < std.length ; i++) {
+			//System.out.println(std[i].information()); 
+		//}
+		
+		// 향상된 for문
+		/*
+		 * 자바에서 배열, 컬렉션과 같은 데이터를 순차적으로 간단하게 반복할 수 있는
+		 * 구조를 제공
+		 * 일반적은 for문 보다 코드가 더 간결하고 가독성이 좋아서
+		 * 반복 작업을 더 쉽게 작성할 수 있다
+		 * 
+		 * for(데이터타입 변수명 : 배열 또는 컬렉션){
+		 * 		// 반복해서 실행할 코드
+		 * }
+		 */
+		for(Student i :std) {
+			System.out.println(i.information());
 		}
 		System.out.println("===================================================");
 		// 최대 10명의 사원 정보를 기록할 수 있게 배열을 할당
