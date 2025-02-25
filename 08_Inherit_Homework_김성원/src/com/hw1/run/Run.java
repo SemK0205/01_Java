@@ -66,6 +66,9 @@ public class Run {
 			// 한 명씩 추가 될 때마다 카운트함
 			count++;
 			
+			if(emp.length == count) {
+				break;
+			}
 			// 계속 추가할 것인지 물어보고, 대소문자 상관없이 'y' 이면 계속 객체 추가
 			System.out.print("계속 추가 하시겠습니까?(y/n) : ");
 			char ch = sc.next().charAt(0);
