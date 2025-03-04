@@ -260,6 +260,9 @@ public class ToyFactory {
 				System.out.println("\n추가 완료");
 				
 			}
+		}else {
+			material.put(input, str);
+			System.out.println("\n추가 완료");
 		}
 		
 	}
@@ -273,13 +276,17 @@ public class ToyFactory {
 		}
 		System.out.print("삭제 할 재료의 재료명 입력 : ");
 		String str = sc.next();
-		
+		boolean flag = true;
 		for(Integer key : material.keySet()) {
 			if(material.get(key).equals(str)) {
 				material.remove(key);
 				System.out.println("삭제 완료");
+				flag = false;
 				break;
 			}
+		}
+		if(flag) {
+			System.out.println("해당 이름의 재료가 존재하지 않습니다.");
 		}
 		
 		
